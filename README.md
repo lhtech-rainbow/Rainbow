@@ -218,17 +218,17 @@ INFLATION_POOL=网络已存在原生资产x每周通货膨胀率+FEE_POOL
 其中，网络已存在原生资产数和FEE_POOL在每个帐页中都有所记录，每个事务的手续费计入了FEE_POOL
 2.计算最小票数MIN_VOTE
 账户分配通货膨胀收益，必须符合两个条件。
-- 必须有其他账户给其投票，通过设置操作执行。
-- 必须超过MIN_VOTE
-- 统计每个账户的票数VOTE
-- 判断VOTE比例分配通胀池INFLATION_POOL
-- INFLATION_POOL中未分配的原生资产则自动计入FEE_POOL，等待下一次通货膨胀发行。~~
+必须有其他账户给其投票，通过设置操作执行。
+必须超过MIN_VOTE
+统计每个账户的票数VOTE
+判断VOTE比例分配通胀池INFLATION_POOL
+INFLATION_POOL中未分配的原生资产则自动计入FEE_POOL，等待下一次通货膨胀发行。~~
 
 
 
 * * *
 
-## 业务架构 P105
+## 业务架构
 区块链世界是账户与账户之间连接的虚拟世界，充分体现一种“账户经济”形态，要实现场景应用落地，不可避免地要与现实世界关联。
 ![e208d9eb92d5b8cdcf492c4877276a61.jpeg](evernotecid://AFDFD2CC-5F89-46B0-9E4A-F5B655F25AA7/appyinxiangcom/18780447/ENResource/p249)
 
